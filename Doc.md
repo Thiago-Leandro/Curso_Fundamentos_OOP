@@ -152,7 +152,7 @@ class Program
         Carro carro1 = new Carro();
         Console.WriteLine($"Carro 1: Marca={carro1.Marca}, Modelo={carro1.Modelo}, Ano={carro1.Ano}");
 
-        // Usando o construtor com parâmetros
+        // Usando o construtor com parâmetrosgit pull
         Carro carro2 = new Carro("Toyota", "Corolla", 2022);
         Console.WriteLine($"Carro 2: Marca={carro2.Marca}, Modelo={carro2.Modelo}, Ano={carro2.Ano}");
     }
